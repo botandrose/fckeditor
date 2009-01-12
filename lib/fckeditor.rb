@@ -40,7 +40,7 @@ module Fckeditor
 			toolbarSet = options[:toolbarSet].nil? ? 'Default' : options[:toolbarSet]
 
 			if var = 'model-less'
-				inputs_name = "${field}"
+				inputs_name = "#{field}"
 			else
 				inputs_name = "#{object}[#{field}]"
 			end
